@@ -7,7 +7,7 @@ import Footer from "./contacts/Footer";
 export default function Contacts() {
   return (
     <>
-        <div className=" myContainer container-fluid">
+        <div className="container-main">
             <Navbar />
             <Header />
             <MainBody />

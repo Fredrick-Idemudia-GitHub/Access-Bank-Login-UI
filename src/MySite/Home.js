@@ -7,7 +7,7 @@ import Footer from "./index/Footer";
 export default function Home() {
   return (
     <>
-        <div className=" myContainer container-fluid">
+        <div className="container-main">
             <Navbar />
             <Header />
             <MainBody />

@@ -25,11 +25,8 @@ yarn-error.log*
 
 #Folders and Files excluded
 
-/FredComponent.js
-/Router
-/practice
-Todo.js
-TodoList.js
-App.css
-App.js
+
+
+*
+!/Testing/
 

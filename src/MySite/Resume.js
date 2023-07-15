@@ -7,7 +7,7 @@ import Footer from "./resume/Footer";
 export default function Resume() {
   return (
     <>
-        <div className=" myContainer container-fluid">
+        <div className="container-main">
             <Navbar />
             <Header />
             <MainBody />

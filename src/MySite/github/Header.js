@@ -7,7 +7,7 @@ import '../App.css'
 
 const Header = () => {
   return(
-    <>
+    <div className='fix'>
       <div className='overlay'>
       </div>
 
@@ -17,7 +17,7 @@ const Header = () => {
         <div><h1 className='header-text'>Tenacity and determination bring success</h1></div>
 
       </div>
-    </>
+    </div>
   );
 };
 

@@ -7,7 +7,7 @@ import Footer from "./github/Footer";
 export default function Github() {
   return (
     <>
-        <div className=" myContainer container-fluid">
+        <div className="container-main">
             <Navbar />
             <Header />
             <MainBody />

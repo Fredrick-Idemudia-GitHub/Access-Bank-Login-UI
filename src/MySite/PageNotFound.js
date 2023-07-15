@@ -7,7 +7,7 @@ import Footer from "./pageNotFound/Footer";
 export default function PageNotFound() {
   return (
     <>
-        <div className=" myContainer container-fluid">
+        <div className="container">
             <Navbar />
             <Header />
             <MainBody />
