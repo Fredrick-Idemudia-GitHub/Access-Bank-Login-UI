@@ -1,5 +1,6 @@
-My Personal Website readme file
-This project conatins links to various sections of my personal website
-This site was created using React JS
-The aim of the website is to publicize myself to propective clients that might need my web development services
-I have included links to download my Resume and CV
+This Repo contains Access Bank Login User Interface
+This project was created with React JS
+Later, I will be adding interactive features  to the UI
+The addition will be to use sample data to allow user to login with a specific pass code
+After loging in, User name, Account Numbers and Account balance would be displayed on the UI for user to see.
+I will be using data stored in an object with the user's device local storage to impliment this features.
