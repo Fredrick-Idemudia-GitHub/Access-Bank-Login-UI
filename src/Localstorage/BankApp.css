@@ -1,0 +1,159 @@
+.bank-app-container {
+    width: 100%;
+    max-width: 768px; /* Set your desired maximum width */
+    min-height: 100vh;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+    border-width: 0.5px;
+    border-color: grey;
+  }
+
+  .header-container{
+    width: 100%;
+    min-height: 20%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 1.2rem;
+    background-color: white;
+    border-top: 1px solid rgb(228, 225, 225);    
+    border-left: 1px solid rgb(228, 225, 225); 
+    border-right: 1px solid rgb(228, 225, 225);    
+   
+
+      }
+
+  .left-items{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.8rem;
+  }
+
+  .left-items .access-name{
+    padding-left: 0.8rem;
+  }
+
+  .right-items{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.8rem;
+  }
+
+  .right-items .right-items-space{
+    padding-left: 0.8rem;
+  }
+
+  img{
+    width: 90px;
+    height: 90px;
+  }
+
+  .body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgb(228, 225, 225);    
+    border-right: 1px solid rgb(228, 225, 225);  
+    border-bottom: 1px solid rgb(228, 225, 225);    
+  
+
+    flex-direction: column;
+  }
+
+  .items-vertical-div{
+    margin-top: 1.8rem;
+    width: 100%;
+  }
+
+  
+  .password-input-box{
+    width: 80%;
+    min-height:50px;
+    margin-left:10%;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom: 10px;
+    border: 1.8px solid rgb(218, 216, 216);
+  }
+
+  .welcome-text{
+    font-size: 2rem;
+    color: grey
+  }
+
+  .body-container .forget-password-div{
+    margin-top:10px ;
+  }
+
+  .body-container span{
+    margin-left: 35rem;
+  }
+
+  .sign-in-button{
+    width: 80%;
+    min-height:50px;
+    margin-left:10%;
+    border-radius:10px;
+    padding:15px;
+    /* border: none;  */
+    border: 0.8px solid #FF8201;
+    background-color:#FF8201;
+  } 
+
+  .items-vertical-div .button{
+    color:white;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+
+  .footer-container{
+    width: 100%;
+    min-height: 20%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    background-color:rgb(241, 241, 239);
+  }
+
+
+  
+  @media (max-width: 600px) {
+    .bank-app-container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .welcome-text{
+      font-size: 1.3rem;
+      color: grey
+    }
+
+    .body-container span{
+      margin-left: 8.5rem;
+    }
+
+    .items-vertical-space{
+      margin-top: 10px;
+    }
+    
+  }
+
+  @media (min-width: 600px) {
+    .body-container span{
+      margin-left: 23rem;
+    }
+  }
+  
+ 
+  
